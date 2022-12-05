@@ -168,8 +168,8 @@ CREATE TABLE `timetable` (
 INSERT INTO `timetable` (`bid`, `time`, `mon`, `tue`, `wed`, `thurs`, `fri`) VALUES
 (0, '09:00:00', 'WORKSHOP', 'TFCS TUTE', 'DS LAB', 'ECONOMICS TUTE', 'DS'),
 (0, '10:00:00', 'WORKSHOP', 'ES TUTE', 'DS LAB', 'DSW TUTE', 'ES'),
-(0, '11:00:00', 'LIFE-SKILLS', 'DSW LAB', 'ES', 'DS', 'DS-Tut'),
-(0, '12:00:00', 'LIFE-SKILLS', 'DSW LAB', 'Lunch', 'TFCS', 'Lunch'),
+(0, '11:00:00', 'LIFE-SKILLS', 'DSW LAB', 'ES', 'DS', 'ECONOMICS'),
+(0, '12:00:00', 'LIFE-SKILLS', 'DSW LAB', 'Lunch', 'TFCS', 'DSW'),
 (0, '13:00:00', 'LUNCH', 'LUNCH', 'Lunch', 'ES LAB', 'Lunch'),
 (0, '14:00:00', 'WORKSHOP', 'TFCS', 'TFCS-Lec', 'ES LAB', 'TFCS'),
 (0, '15:00:00', 'DS LAB', 'DS', 'TFCS-tut', 'ECONOMICS', 'BREAK'),
