@@ -135,7 +135,7 @@ INSERT INTO `logsession` (`srno`, `enroll`) VALUES
 (2, 9921103033),
 (3, 9921103196),
 (4, 9921103198),
-(5, 9921103200)
+(5, 9921103200);
 
 -- --------------------------------------------------------
 
@@ -165,7 +165,7 @@ INSERT INTO `timetable` (`bid`, `time`, `mon`, `tue`, `wed`, `thurs`, `fri`) VAL
 (0, '13:00:00', 'LUNCH', 'LUNCH', 'Lunch', 'ES LAB', 'Lunch'),
 (0, '14:00:00', 'WORKSHOP', 'TFCS', 'TFCS-Lec', 'ES LAB', 'TFCS'),
 (0, '15:00:00', 'DS LAB', 'DS', 'TFCS-tut', 'ECONOMICS', 'BREAK'),
-(0, '16:00:00', 'DS LAB', 'DS', 'TFCS-Tut', 'FREE', 'BREAK'),
+(0, '16:00:00', 'DS LAB', 'DS', 'TFCS-Tut', 'FREE', 'BREAK');
 
 
 --
