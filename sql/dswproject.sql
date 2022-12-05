@@ -166,27 +166,15 @@ CREATE TABLE `timetable` (
 --
 
 INSERT INTO `timetable` (`bid`, `time`, `mon`, `tue`, `wed`, `thurs`, `fri`) VALUES
-(0, '09:00:00', 'DS-Lec', 'DSW-Lec', 'TFCS-Lec', 'ES-Lec', 'DS-Tut'),
-(0, '10:00:00', 'DS-Lab', 'DSW-Lab', 'TFCS-Lec', 'ES-Lab', 'DS-Tut'),
-(0, '11:00:00', 'DS-Lab', 'DSW-Lab', 'TFCS-Lec', 'ES-Lab', 'DS-Tut'),
-(0, '12:00:00', 'Lunch', 'Lunch', 'Lunch', 'Lunch', 'Lunch'),
-(0, '13:00:00', 'Lunch', 'Lunch', 'Lunch', 'Lunch', 'Lunch'),
-(0, '14:00:00', 'DS-Lec', 'DSW-Lec', 'TFCS-Lec', 'ES-Lec', 'DS-Tut'),
-(0, '15:00:00', 'DS-tut', 'DSW-tut', 'TFCS-tut', 'ES-tut', 'DS-Tut'),
-(0, '16:00:00', 'DS-Tut', 'DSW-Tut', 'TFCS-Tut', 'ES-Tut', 'DS-Lec'),
-(1, '09:00:00', 'DCD-Lec', 'SNS-Lec', 'PRP-Lec', 'DCD-Tut', 'ES-Tut'),
-(1, '10:00:00', 'DCD-Lab', 'SNS-Lab', 'PRP-Lab', 'DCD-Tut', 'ES-Tut'),
-(1, '11:00:00', 'DCD-Lab', 'SNS-Lab', 'PRP-Lab', 'DCD-Tut', 'ES-Tut'),
-(1, '12:00:00', 'Lunch', 'Lunch', 'Lunch', 'Lunch', 'Lunch'),
-(1, '13:00:00', 'Lunch', 'Lunch', 'Lunch', 'Lunch', 'Lunch'),
-(1, '14:00:00', 'DCD-Tut', 'SNS-Tut', 'PRP-Tut', 'DCD-Lec', 'ES-Tut'),
-(1, '15:00:00', 'DCD-Tut', 'SNS-Tut', 'PRP-Tut', 'DCD-Tut', 'ES-Lec'),
-(2, '09:00:00', 'Microbiology-Lec', 'MolecularBiology-Lec', 'Genetics-Lec', 'Microbiology-Tut', 'Chemistry-Tut'),
-(2, '11:00:00', 'Microbiology-Lab', 'MolecularBiology-Lab', 'Genetics-Lab', 'Microbiology-Tut', 'Chemistry-Tut'),
-(2, '12:00:00', 'Lunch', 'Lunch', 'Lunch', 'Lunch', 'Lunch'),
-(2, '13:00:00', 'Lunch', 'Lunch', 'Lunch', 'Lunch', 'Lunch'),
-(2, '14:00:00', 'Microbiology-Tut', 'MolecularBiology-Tut', 'Genetics-Tut', 'Microbiology-Lec', 'Chemistry-Tut'),
-(2, '15:00:00', 'Microbiology-Tut', 'MolecularBiology-Tut', 'Genetics-Tut', 'Microbiology-Tut', 'Chemistry-Lec');
+(0, '09:00:00', 'WORKSHOP', 'TFCS TUTE', 'DS LAB', 'ECONOMICS TUTE', 'DS'),
+(0, '10:00:00', 'WORKSHOP', 'ES TUTE', 'DS LAB', 'DSW TUTE', 'ES'),
+(0, '11:00:00', 'LIFE-SKILLS', 'DSW LAB', 'ES', 'DS', 'DS-Tut'),
+(0, '12:00:00', 'LIFE-SKILLS', 'DSW LAB', 'Lunch', 'TFCS', 'Lunch'),
+(0, '13:00:00', 'LUNCH', 'LUNCH', 'Lunch', 'ES LAB', 'Lunch'),
+(0, '14:00:00', 'WORKSHOP', 'TFCS', 'TFCS-Lec', 'ES LAB', 'TFCS'),
+(0, '15:00:00', 'DS LAB', 'DS', 'TFCS-tut', 'ECONOMICS', 'BREAK'),
+(0, '16:00:00', 'DS LAB', 'DS', 'TFCS-Tut', 'FREE', 'BREAK'),
+
 
 --
 -- Indexes for dumped tables
